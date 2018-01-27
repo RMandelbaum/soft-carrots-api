@@ -5,3 +5,20 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+jokes = Joke.create([
+  {
+    description: "A man walks into a bar. Ouch.",
+    author: "Unknown",
+    category: "Pun",
+    rating: 8,
+    img_url: "https://cdn.drawception.com/images/panels/2016/2-16/2Wd7jGt1bN-2.png"
+  },
+  {
+    description: "What do you get when you cross a dick and a potato. A dictator.",
+    author: "Unknown",
+    category: "Pun",
+    rating: 6,
+    img_url: "https://lh3.googleusercontent.com/-xJ4_62C32wc/WmdOiZiLVFI/AAAAAAAAFOI/IKcGZmsKdws1cfjaT5WsQO0e-OCsUKY5QCJoC/w506-h750/download.jpg"
+  }
+  ])
