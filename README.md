@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Model Joke
+  description: actual joke text
+  author: name of submitter
+  category: option of irony, character, reference, shock, parady, hyberpole, wordplay, analogy, madcap, meta-humor, misplaced focus,
+  rating: score 1-10 or upvote/downvote button??
+  img_url: optional image to upload
