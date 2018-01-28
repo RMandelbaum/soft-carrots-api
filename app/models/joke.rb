@@ -1,4 +1,4 @@
 class Joke < ApplicationRecord
-  validates :description, :author, :category, presence: true
-  has_many :comments
+  validates :description, :author, :category, :img_url, presence: true
+
 end

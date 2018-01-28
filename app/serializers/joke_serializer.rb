@@ -4,6 +4,5 @@ class JokeSerializer < ActiveModel::Serializer
              :author,
              :category,
              :rating,
-             :comments,
              :img_url
 end

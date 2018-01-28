@@ -10,18 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180127214843) do
+ActiveRecord::Schema.define(version: 20180127004025) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "comments", force: :cascade do |t|
-    t.string "description"
-    t.integer "joke_id"
-    t.string "user"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
   create_table "jokes", force: :cascade do |t|
     t.string "description"
@@ -31,7 +23,6 @@ ActiveRecord::Schema.define(version: 20180127214843) do
     t.string "img_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "comments"
   end
 
 end
