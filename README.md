@@ -1,4 +1,4 @@
-##Soft Carrots
+#Soft Carrots
 
 This app allows users to view and submit jokes and/or funny pictures.
 This is the rails backend of the app that provides an api.
