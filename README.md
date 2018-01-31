@@ -4,12 +4,16 @@ This app allows users to view and submit jokes and/or funny pictures.
 This is the rails backend of the app that provides an api.
 
 $ git clone https://github.com/RMandelbaum/soft-carrots-api
+$ git clone https://github.com/RMandelbaum/soft-carrots-client
 
-$ cd soft-carrots-api
+$ cd soft-carrots-api-api
+$ rails db:migrate
+$ rails s -p 3001
 
-$ bundle install
+$ cd soft-carrots-client
+$ npm install
+$ npm start
 
-$ rails migrations
 
 Contributing
 
