@@ -15,7 +15,8 @@ jokes = Joke.create([
     img_url: "https://cdn.drawception.com/images/panels/2016/2-16/2Wd7jGt1bN-2.png"
   },
   {
-    description: "What do you get when you cross a dick and a potato. A dictator.",
+    description: "Q: What kind of potato starts arguments?
+\n A: An agi-tater.",
     author: "Unknown",
     category: "Pun",
     rating: 6,

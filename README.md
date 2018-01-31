@@ -1,31 +1,20 @@
-# README
+##Soft Carrots
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app allows users to view and submit jokes and/or funny pictures.
+This is the rails backend of the app that provides an api.
 
-Things you may want to cover:
+$ git clone https://github.com/RMandelbaum/soft-carrots-api
 
-* Ruby version
+$ cd soft-carrots-api
 
-* System dependencies
+$ bundle install
 
-* Configuration
+$ rails migrations
 
-* Database creation
+Contributing
 
-* Database initialization
+Bug reports and pull requests are welcome on GitHub at https://github.com/RMandelbaum/soft-carrots-api This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
 
-* How to run the test suite
+License
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-Model Joke
-  description: actual joke text
-  author: name of submitter
-  category: option of irony, character, reference, shock, parady, hyberpole, wordplay, analogy, madcap, meta-humor, misplaced focus,
-  rating: score 1-10 or upvote/downvote button??
-  img_url: optional image to upload
+The application is available as open source under the terms of the MIT License.
