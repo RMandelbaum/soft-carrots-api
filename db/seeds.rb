@@ -11,7 +11,7 @@ jokes = Joke.create([
     description: "A man walks into a bar. Ouch.",
     author: "Unknown",
     category: "Pun",
-    rating: 8,
+    rating: 0,
     img_url: "https://cdn.drawception.com/images/panels/2016/2-16/2Wd7jGt1bN-2.png"
   },
   {
@@ -19,7 +19,7 @@ jokes = Joke.create([
 \n A: An agi-tater.",
     author: "Unknown",
     category: "Pun",
-    rating: 6,
+    rating: 0,
     img_url: "https://lh3.googleusercontent.com/-xJ4_62C32wc/WmdOiZiLVFI/AAAAAAAAFOI/IKcGZmsKdws1cfjaT5WsQO0e-OCsUKY5QCJoC/w506-h750/download.jpg"
   }
   ])

@@ -2,7 +2,7 @@ class Api::JokesController < ApplicationController
   before_action :set_joke, only: [:show, :update, :destroy]
 
   def index
-   render json: Joke.all
+   render json: Joke.order('id ASC')
   end
 
   def create
